@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.input input{
+  font-size: 20px;
+  width:100%;
+ padding:15px;
+  outline: none;
+  margin-bottom:10px;
+  border: 2px solid rgb(20 226 58 / 73%);
+  border-radius:5px
+}
+
+.home{
+  width:30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  height:100vh;
+  
+ 
+}
+form{
+  padding:30px 50px 20px 30px ;
+ border-radius:3px;
+  border:2px solid #1000ff1f
+}
+form:hover{
+  box-shadow: rgba(red, green, blue, alpha);
+}
+.input div button{
+  padding:15px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #271127;;
+  border:none;
+  width: 150px;
+  border-radius: 3px;
+  color:white;
+}
+.input div button:hover{
+  background-color:white;
+  color:black;
+  transition:0.5s;
+  
+}
+
+.mainhome{
+  width:100%;
+  height: 100vh;
+  margin:auto;
+  background-color: rgb(20 226 58 / 73%);
+}
+.input label{
+  font-size: 20px;
+  color:white;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;
+}
